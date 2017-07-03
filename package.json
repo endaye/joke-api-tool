@@ -1,0 +1,30 @@
+{
+  "name": "joke-api-tool",
+  "version": "0.1.0",
+  "description": "a centaurstech joke api query tool",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/yiwangcentaurs/joke-api-tool.git"
+  },
+  "keywords": [
+    "joke",
+    "笑话"
+  ],
+  "author": "Yuancheng Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/yiwangcentaurs/joke-api-tool/issues"
+  },
+  "homepage": "https://gitlab.com/yiwangcentaurs/joke-api-tool",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "body-parser-xml": "^1.1.0",
+    "express": "^4.15.3",
+    "pug": "^2.0.0-rc.2",
+    "request": "^2.81.0"
+  }
+}

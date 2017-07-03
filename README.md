@@ -1,5 +1,5 @@
 # news-api-tool
-a Centaurstech news api query tool
+a Centaurstech jokes api query tool
 
 ## How to Run
 
@@ -14,11 +14,10 @@ a Centaurstech news api query tool
 
 + **Port:** 3043
 
-+ **Method:** GET, POST
++ **Method:** GET
 
 + **API URL:** 
   1. 取得笑话: `/api/joke/get/`
-  2. 添加笑话: `/api/joke/add/`
 
 ### Request
 

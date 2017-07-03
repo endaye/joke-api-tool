@@ -10,6 +10,8 @@ a Centaurstech jokes api query tool
 
 ## Data Format Example
 
+This API contains 80 jokes. It can send a joke ramdomly.
+
 ### Info
 
 + **Port:** 3043

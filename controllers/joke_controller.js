@@ -15,7 +15,7 @@ exports.index = function (req, res) {
 
 exports.get_joke = function (req, res) {
     console.log("Total jokes: " + jokes.jokes.length);
-    var id = Math.floor(Math.random() * 4);
+    var id = Math.floor(Math.random() * jokes.jokes.length);
     var res_joke = {}
     res_joke.joke = jokes.jokes[id].joke;
     res.send(res_joke);

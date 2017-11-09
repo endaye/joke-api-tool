@@ -1,4 +1,5 @@
-# news-api-tool
+# joke-api-tool
+
 a Centaurstech jokes api query tool
 
 ## How to Run
@@ -18,12 +19,13 @@ This API contains 80 jokes. It can send a joke ramdomly.
 
 + **Method:** GET
 
-+ **API URL:** 
++ **API URL:**
   1. 取得笑话: `/api/joke/get/`
 
 ### Request
 
 ### Respond
+
 ```json
 {
     "joke": "包大人如厕忘记带纸，忐忑中惊喜地听见外面传来：“圣纸到……开封府尹包拯接纸……”"

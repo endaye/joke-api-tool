@@ -17,4 +17,9 @@ app.get("/api/joke/get", jokes.get_joke);
 
 app.listen(app.get("port"), function () {
     console.log("Server started at " + port);
+    plugin.setObj({
+        app_name: 'joke-api'
+    });
+    plugin.showConfig();
+    plugin.sysCheck(10);
 });

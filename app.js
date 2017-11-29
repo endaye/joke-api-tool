@@ -15,8 +15,7 @@ app.get('/', jokes.index);
 
 app.get('/api/joke/get', jokes.get_joke);
 
-
-    plugin.catchErr();
+plugin.catchErr();
 
 app.listen(app.get('port'), function () {
     console.log('Server started at ' + port);
@@ -25,10 +24,5 @@ app.listen(app.get('port'), function () {
         app_name: "joke-api"
     });
     plugin.showConfig();
-    plugin.sysCheck(10);
-
-setTimeout(()=>{
-    throw new Error('Whoops!');
-}, 5000);
-    
+    plugin.sysCheck(60);
 });

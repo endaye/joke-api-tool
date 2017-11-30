@@ -15,7 +15,7 @@ This API contains 80 jokes. It can send a joke ramdomly.
 
 ### Info
 
-+ **Port:** 3043
++ **Port:** 9011
 
 + **Method:** GET
 

@@ -6,7 +6,7 @@ var express = require('express');
 var app = express();
 var plugin = require('centaurs-test-plugin');
 
-var port = process.env.PORT || 3403;
+var port = process.env.PORT || 9011;
 app.set('port', port);
 
 var jokes = require('./controllers/joke_controller.js')

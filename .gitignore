@@ -63,3 +63,6 @@ typings/
 # Configuration
 config/
 package-lock.json
+
+# Auto generated PDF file
+README.pdf

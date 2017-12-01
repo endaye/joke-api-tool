@@ -1,3 +1,3 @@
 git pull
 npm install
-forever --uid "joke-server" -a start app.js
+NODE_ENV=production forever --uid "joke-server" -a start app.js

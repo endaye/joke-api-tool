@@ -1,5 +1,7 @@
 /**
- * Created by En on 7/3/17.
+ * @copyright Centaurs Technologies Co. 2017
+ * @author Zhang, Yuancheng
+ * @license Unlicense
  */
 
 var express = require("express"),

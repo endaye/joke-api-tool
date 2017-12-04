@@ -1,20 +1,21 @@
 /**
- * Created by En on 7/3/17.
+ * @copyright Centaurs Technologies Co. 2017
+ * @author Zhang, Yuancheng
+ * @license Unlicense
  */
 
 // joke_controller.js
 var express = require('express'),
-    app = express(),
-    plugin = require('centaurs-test-plugin');
-
-
+    app = express()
 
 var jokes = require('../models/jokes.json');
 
-exports.index = function (req, res) {
+exports.index = function (req, res, next) {
     res.render("index.pug", { layout: false });
+    if (next) {
+        next();
+    }
 };
-
 
 exports.get_joke = function (req, res, next) {
     // console.log("Total jokes: " + jokes.jokes.length);

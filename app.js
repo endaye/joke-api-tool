@@ -1,17 +1,16 @@
 /**
  * @copyright Centaurs Technologies Co. 2017
  * @author Zhang, Yuancheng
- * @license Unlicense
+ * @license MIT
  */
 
 var express = require("express"),
     app = express(),
-    plugin = require("centaurs-test-plugin");
+    plugin = require("centaurs-test-plugin"),
+    jokes = require("./controllers/joke_controller.js"),
+    port = process.env.PORT || 9011;
 
-var port = process.env.PORT || 9011;
 app.set("port", port);
-
-var jokes = require("./controllers/joke_controller.js");
 
 app.use(plugin.timer.start);
 
